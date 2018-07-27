@@ -1,0 +1,14 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: micorservicecloud-config-guo-dev
+---
+spring:
+  profiles: test
+  application:
+    name: micorservicecloud-config-guo-test
